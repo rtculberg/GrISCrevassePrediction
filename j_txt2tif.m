@@ -41,4 +41,4 @@ bm = reshape(bm, size(data));
 data = data.*bm;
 
 % Save a georeferenced GeoTIFF of the fracture probability
-geotiffwrite("AnnualProbMap_Final.tif", data, R, "CoordRefSysCode", 3413);
+geotiffwrite("FractureProbability_Final.tif", data, R, "CoordRefSysCode", 3413);
